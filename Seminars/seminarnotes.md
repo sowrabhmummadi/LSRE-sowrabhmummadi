@@ -35,3 +35,21 @@ In this paper authors tries to answer questions relating to performance, value, 
 E.g. would slightly better performance significantly more valuable form market perspective?
 Main purpose of this paper is to figure out the implementation of QUPER in Industry. This is done by conducting a case study at sony errison a mobile handset company. QUPER model doesn’t evaluate quality based on either its good or bad instead it evaluates quality as the different levels of scales of goodness. Quality is non-linear continuous graph when evaluated with cost, benefit. Further generic QUPER model is tailored as per the company and a case study is conducted. Based on the evaluation results it can be understood that applying QUPER during release planning will have added advantage understanding, evaluating quality which leads to the better performance of the product in the market.
 
+
+This papers describes continuous elicitation, prioritization of requirements during release planning process in a market driven environment with expert cost estimation techniques. Unlike releasing planning for bespoke software where customer is well defined and requirements specification are more clear in market driven development this releasing planning should be able to identify new requirements to ensure the competitiveness in the market. In this paper authors describes an industrial requirements engineering process for a packed software called REPEAT (Requirements Engineering ProcEss At Telelogic).REPEAT involves elicitation, selecting, managing requirements for release planning process.
+REPEAT actors
+Requirements Management Group (RQMG) - requirement management and decision making.
+Issues: any one that issues a requirement.
+Customers and users: Stakeholders who uses the software and provide feedback.
+Requirements team: analysing and specifying the set of requirements.
+REPEAT Requirements states
+New: initial state, initial priority 
+Assigned: Assigned for expert for analysis
+Classified: rough estimate and implementation ideas.
+Rejected: end state representing that requirement is rejected.
+Selected: requirement is selected with detailed estimates  
+Applied: implemented and verified
+
+REPEAT provided promising results by releasing the producing as expected than traditional ad-hoc process of release planning.
+
+
