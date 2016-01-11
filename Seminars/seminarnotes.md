@@ -93,3 +93,87 @@ RAM PROCESS
 3.	Abstraction (Work up) - breaking down the requirement based on the level they are placed previously. This step may result in creating new requirements called workup requirements. This break down is done because the requirements should be compared and we can only compare the requirements at same level.
 4.	Requirements workup discussion
 Authors have validated RAM using static and dynamic validations.
+
+Seminar 3
+--  v.d. Weerd & Brinkkemper “Towards a reference framework for software product management”
+Software product management is different from traditional (non-software) product management in different ways. Software products has various advantages such as there are no additional costs required for the extra copies and any unnecessary functionality of this products can be rectified easily by releasing patches. Due to this ease of development, changes occur more frequently which will increase the responsibility of product manager. 
+In this paper authors formulated a reference framework for the software product management. This framework assists product managers in accomplishing their responsibilities such as managing requirements, defining products and releases in the context of both external and internal stakeholders. This framework provides the complete understanding of the whole product management domain.
+Software product management is divided into four process areas based on the hierarchy levels. 
+	-Software portfolio management (deals with the products with similar base structure produced by the organization) identifying new market trends and introducing new products to match them. Also determining the product life cycle, product line (identifying the products with similar set of features), establishing contracts, etc. 
+	-Product road mapping (long term (min 2 years) planning the business, technological resources for a certain product throughout its lifecycle) input from portfolio management is taken into considerations to identify themes necessary resources for the project. 
+	-Requirements management (Gathering /identifying, revising, organizing requirements) it include analyzing the requirements, translating them into product requirements (requirements implemented in product).
+	-Release planning (determining the set of requirements that are to be implemented for releases) it involves prioritization, selection of requirements.
+
+-An Industrial Survey of Requirements Interdependencies in Software Product Release Planning
+Requirement dependencies play an important role in requirement selection and releasing planning process as there are independent with each other. Traditional bespoke project has more functional dependencies and Market driven development project has value related dependencies. Different possible interdependencies are identified in order to improve releasing planning process. Authors also applied a simple visualization technique to display the interdependencies of the requirements and also find this technique useful in identifying important characteristics of the requirements. Authors identified some preliminary interdependencies by conducting a survey which includes AND, REQUIRES, TEMPORAL, CVALUE, ICOST, OR etc. A set of requirements can have as many interdependencies as possible. After this identified interdependencies are applied to the requirements  authors visualized  these interdependencies.
+VISUALIZATION process
+1)	Requirements that are singular are spotted in the graph which is an easy task they don’t contain interdependencies. These can be scheduled to any increment. 
+2)	Pairwise assessments for the requirements for identification of similarities ,
+3)	Identifying highly dependent requirements.
+4)	Plot the graph as requirements as nodes and different kind of dependencies as different type of edges.  
+
+-Are you biting off more than you can chew? A case study on causes and effects of overscoping in large-scale software engineering
+	In market driven development when there are less requirements that are priori they there is a change of overscoping. This paper discusses this overscoping shortcomings, impact of agile requirement practices on overscoping. In Market Driven Requirement Engineering (MDRE) product mangers task of scoping requirements for the release planning is very hectic. Due to change in market technology, market priorities with large number of requirement change requests, new requirements that may include new functionality come continuously. Usually agile development methodology claim to address this issue by having balanced view of scoping and available resources due to comparatively less requirements per sprint. Authors provides factors responsible for overscoping thereby eliminating the risk by avoid the overscoping.
+-Identifying the Main causes of requirement overscoping.
+1)	Continue requirement flow –different requirement flows which are caused by different variants in product line, late new market requirements, communication gap between different units (e.g.  requirement unit, development unit, design unit etc.)lead to overscoping.
+2)	No overview of software process-lack of overview of available development resources associated with communication gaps result in overscoping   
+3)	Low Development Team (DT) involvement in the early phases-development team busy with development and maintenance of the previous projects.
+4)	Requirement not agreed with DTs-due to the low involvement of development team in the decision making process of the requirement engineering.
+5)	Detailed requirement specification produced upfront.
+6)	Unclear vision of overall goal.-lack of clear business strategy.
+-Effects of overscoping
+1)	Frequent of change of requirement- descoping the requirement that has already started is waste of the resources
+2)	Quality issues-due to high workload caused by overscoping, continues changing of requirements.
+3)	Delays
+4)	Customer expectations not always meet
+5)	Communication gaps
+6)	Challenge the keep SRS updated 
+IMPACT of agile practices:
+   Even though overscoping can be seen it is more manageable and less challenging. With the introduction of following agile practices.
+1)	One continuous scope and releasing planning flow
+2)	Cross functional development teams
+3)	Gradual and iterative detailing of requirements.
+-Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering
+	Requirements Engineering process is a critical stage in software development where the decisions about developing the right product as customer expects are taken. Requirements selection is a complex decision problem, this paper author aim to identify the change requests that may influence decision lead-time and decision outcome.
+Decision lead-time: time taken to analyse the impact of the decision.
+Decision outcome: Specific outcome of decision process (acceptance or rejection).
+
+Seminar 4
+-- Wnuk et al. “What Happened to Our Features? Visualization and Understanding of Scope Change Dynamics in a Large-Scale Industrial Setting”
+
+In this paper, authors developed a Visual representation chart called Feature Survival chart (FSC) which is useful in understanding the scope changes and help investigators in taking scoping decisions. Along with the chart some scoping measurements are also proposed which are also in evaluated.
+
+FSC is constructed as follows, it is a two dimensional representation with scope changes over time on X-axis and feature list in Y-axis. Different colour schemes are followed to represent the feature for scope for example shades of green is used to display acceptance level of the feature whereas red specifies that this feature is de-scoped.
+
+FSC is developed by conducting a case study in large company which uses a product line approach for developing embedded systems. FSC is applied for three different projects, and scopes changes are observed.
+--Company follows a state gate model (project id divide into smaller pieces with stages where project activities are conducted and gates where business evaluations and go/Kill decisions are made) with many iterations. Company has four mile stones and according to company guidelines most of the scoping should be done before milestone two but if we observe the FSC charts of the products we can understand this is not the case as most of the scope changes are done after the milestone three.
+--According to the company the secondary flow (requirements that deal with platform adaptation which does not include core functionality) of requirements are identified after the milestone 2 which is not the case. Secondary requirements are identified after milestone 4 which can be understood by FSC chart
+From the above examples it can be understood that FSC chart helps in keep track the scoping process of requirements which helps design a better product in this changing markets with evolving technologies.
+
+A total of five measurements are also identified to measure this scope process of which four can be calculated from the scope attribute value from feature list document (document that contain the description of each feature along with scope attributes) and fifth measurement require more qualitative approach.
+-Measurement 1: Number of positive and negative scope changes per time stamp/baseline (M1).
+	Positive scope change inclusion and negative scope change exclusion of the feature.
+-Measurement 2: Time to feature removal (M2)
+	Time between introduction of a feature and its removal completely.
+-Measurement 3: Number of state changes per feature (M3)
+-Measurement 4: Time to birth (M4)
+	Delay in introduction of the feature.
+-Measurement 5: Reason for scoping decision	
+	Non numerical value specifying the reason of the scoping decision.
+
+--  Wnuk & Gorschek “Obsolete Software Requirements”
+This paper describes obsolete requirements phenomena in the software industry. As changing requirements become more obvious nowadays in order to stay competitive in software business where the requirements become obsolescence before completion of project, required amount of consideration should be given to requirement obsolescence. These obsolete requirements could drastically prolong project timelines resulting in increase of total cost of the product.
+Even though there is research about the identifying such requirements (Volatile requirements (requirement that tend to change so often), scope creep (initially unidentified requirements that are identified later in the project which are every large in number), etc.). However identification of these requirements is not just sufficient this phenomenon of obsolete requirements should be addressed.This process is called requirement selection 
+
+
+
+
+
+
+
+
+
+
+
+
+
