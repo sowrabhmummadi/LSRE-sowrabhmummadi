@@ -166,7 +166,30 @@ This paper describes obsolete requirements phenomena in the software industry. A
 Even though there is research about the identifying such requirements (Volatile requirements (requirement that tend to change so often), scope creep (initially unidentified requirements that are identified later in the project which are every large in number), etc.). However identification of these requirements is not just sufficient this phenomenon of obsolete requirements should be addressed.This process is called requirement selection 
 
 
+Seminar 4
 
+Assessing challenges of continuous integration in the context of software requirements breakdown a case study
+This paper discusses the challenges faced during continuous integration in agile practices. This is done by conducting a case study. This paper also considers software requirements breakdown and its influence on continuous integration. Continuous Integration is the concept of integration of small requirements or parts of a requirement several times in a day.Due to increase in a number of requirements and considering the frequency of the requirements changes, agile practices are considered most promising development methodology.This development methodology can be further improved by using continuous integration.Continuous integration in order to be effective it should have the support of  software requirements breakdown.Requirements should be small enough to facilitate continuous integration.This helps developers to test them independently before integration.Breakdown of a user story into smaller, clearer requirements with visual business and customer value is considered difficult task and many examples that verify this statement are provided by authors.During literature review, authors found that there are many problems that can occur by continuous integration.
+During this thesis, author focused on 
+	-challenges of implements continuous integration in practice
+	-challenges of software requirements breakdown in practice
+	-influence of software requirements breakdown on continuous integration.
+A case study is conducted by authors’ at Ericsson.
+   Continuous integration is adapted by many teams at Ericsson and the process followed in the company is as follows.The company has different branches for development(Work Branch),testing(local latest version,pre-test Build),quality assurance.Any new feature or bug fix that is being developed,changes made are pushed into Work Branch.once the whole feature is developed changes are pushed to Local Latest Version branch here the new functionality is tested after the tests are passed these changes are pushed to pre-test Build branch here the regression testing is done.After these tests are completed then the changes are pushed to latest stable version.Quality assurance is done at each branch.
+Challenges identified during continuous integration:
+	-Mindset:developers mindset which is influenced by scepticism,change of old habits(Continuous integration challenges old habits), early exposing work(less time to polish the code before integration) .
+	-Tools and infrastructure
+	-Testing challenges, Domain Adaptability, Understanding of Continuous Integration, Code Dependencies, Software Requirments breakdown challenges.
+Software Requirments breakdown 
+	Ericsson introduced cross-functional teams as a part of the agile transformation.These cross-functional teams contain operational product owners who decide the order of implementation of requirements and it's up to the teams breakdown the requirements.
+      Challenges faced:
+	-Requirements Abstraction,Allignment of requirements and test, customer value, Guiding principle.
+Influence of software requirements breakdown on continuous Integration.
+Authors received difference opinion about the necessity of Software breakdown in continuous integration.The necessity depends on the work that is being carried out.Breaking down the requirements to support continuous integration will come with certain implications.
+
+
+My View:Continous integrations will support the development of the product.But in order to implement this process one should have a clear picture of what is being developed.Better planning is required to realise the advantages of the process.As the requirements gathered are from different levels of abstraction and has different customer value and business value breaking them will help in continuous integration.Another challenge is maintaining the quality of the product effective quality assurance measures should be in place to preserve the quality of the product.Another challenge is less feedback time this should be considered while planning the project.
+	
 
 
 
