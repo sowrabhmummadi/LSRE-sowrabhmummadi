@@ -104,7 +104,8 @@ Software product management is divided into four process areas based on the hier
 	-Requirements management (Gathering /identifying, revising, organizing requirements) it include analyzing the requirements, translating them into product requirements (requirements implemented in product).
 	-Release planning (determining the set of requirements that are to be implemented for releases) it involves prioritization, selection of requirements.
 	
-	13 Market-Driven Requirements Engineering for Software Products
+Market-Driven Requirements Engineering for Software Products
+------------------------------------------------------------
 
 Market-Driven Software Products are the software that is aimed at the open market rather than a specific customer(bespoke product).Development costs of Market Driven products are divided among many buyers in an open market. This paper focuses on the product requirement engineering process of Market-Driven products. This paper also provides implementation way to progress tracking and data management.  Requirement Engineering process of the Market-Driven products is identical to the bespoke product but with some additional challenges and change in context. The process of requirement engineering in Market-Driven environment is called Market-Driven Requirements Engineering(MDRE). Developing organization should consider the following things in order to stay alive in competitive Market-Driven market.
 
@@ -123,6 +124,7 @@ MDRE along with traditional requirement engineering activities will also include
  - Overloaded requirement management (caused due to flooding of requirements repository).
  
 MDRE process implementation to be concrete  some factors should be implemented such factors include type of development process, price, distribution policy, type of market, product complexity, product flexibility ,user interface complexity, prediction of sales, sale channels. Process quality of MDRE process is explained using *alfa-beta model* where alfa requirements are must implement requirements as they add quality to the product, beta requirements should not be implemented as they are lower the quality of the product. Using this model product quality and decision quality can be known. Main challenge lies in selecting alfa requirements while rejecting beta requirements. Elicitation process had a great impact on the process quality. Golden-grain ratio (ratio of number of selected alfa requirements to total number of issued requirements) is used to identify the outcome of elicitation process.
+
 ***MDRE Data Management***	
 	Data management In MDRE can be done using requirements state model (RSM) (used for the tracking the progress of the requirement refinement), requirements repository where there details about the requirements are stored. RSM uses requirements salmon ladder with following states candidate (each received requirements gets this status), Approved (Reviewed and accepted requirements gets this status), specified (detailed specification added), Discarded (Reviewed and rejected requirements gets this status), Planned (resources allocated), Developed, Verified, and Released. 
 
