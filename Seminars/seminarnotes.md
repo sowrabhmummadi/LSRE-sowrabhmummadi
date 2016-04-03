@@ -16,6 +16,39 @@ RP constraints are not considered
 Factors to be considered for release planning :  Decision variables, Feature dependencies (Coupling and precedence dependencies), Resource constraints (Identify the resources available), Stakeholders, Feature prioritization, objective function (urgency, risk, satisfaction or dissatisfaction, and return on investment)
 Release planning can be more effectively implemented by actually identifying the need for strong methodology, formulating objectives which involve impacting criteria rather than only considering the importance of features. Better data collection techniques to get more accurate and limited data to evaluate. 
 
+The Art and Science of Software Release Planning
+------------------------------------------------
+Release planning needs computational intelligence combined with knowledge and experience of experts. In this paper, Authors describe the release planning process in association with incremental development. Incremental development helps the customer to have early access to the product which results in early feedback from the customers. Release planning contains the plan of different system releases each contains a certain set of features based on customer value. Also each further release help in fixing defects from previous releases. Release planning is mainly about selecting features and assigning them to the different releases. This assignment should consider technical, budget, risk constraints.
+
+***Challenges faced during release planning:***
+
+ - 	Planning is computationally complex after identifying the formal definition of the problem. Identifying the problem in the first place is a more complex task due to cognitive complexity.
+ - 	A Proper understanding of planning objectives, constraints, important stakeholders and their feature preferences is necessary.
+ - Release planning in most of the industries is done in ad-hoc because	
+	 - Optimally selecting features is a very complex task considering the no of features.
+	 - 	Planning involves the use of resources and also time-consuming.
+	 - 	Scope planning is limited to next release only.
+	 - 	Even the standards which mention the necessity of the plan lacks the procedures to follow implement planning successfully.
+
+In this paper, the author provides two approaches to release planning. The Art of release planning and the Science of release planning. Agile development methodology which is famous for the well-known small, iterative software release providing early feedback from the customer avoids big bang syndrome does not have a specific procedure to select the features and priorities. Most of the industries even dealing with a large number of requirements lack the tool support for release planning, they use spreadsheets for this process. Authors try to formalize the release planning problem, in the process they have identified similar studies
+ - Anthony Bagnall and his colleagues assign weight to the customers based on their importance to the company and then used to plan the feature by satisfying the subset of customer who are more valuable considering the allowed budget.
+ - Ho-Won Jung’s approach involves selecting features that provide maximum value to the minimum cost and according to budget features are allocated.
+These approaches does not involve customers in decision making process.
+
+***Authors proposed process***
+Identify the set of features and assign them to the set of releases.
+ 
+
+ - identify the dependencies among the features. Proposed two types of dependencies Coupling (dependent should be released in the same release) and precedence (dependents should be released in certain order).
+ -  Resources constraints should be considered, these relate to budget and effort estimates.
+ - Stakeholders are assigned certain level of importance (ordinal nine-point scale for each customer)
+ - Feature Prioritization is done based on the urgency and value. Each feature is assigned a level of urgency (Ordinal nine-point scale given by each stakeholder) based on its impact on the product’s overall value.
+ - objective function is formed and then hybrid approach based on integer linear programming is followed.
+
+
+This process is implemented and verified.
+
+
 
 
 – A Case Study Evaluation of the Guideline-Supported QUPER Model for Elicitation of Quality Requirements Richard Berntsson Svensson and Bjorn Regnell
