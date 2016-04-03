@@ -69,6 +69,41 @@ In this paper authors tries to answer questions relating to performance, value, 
 E.g. would slightly better performance significantly more valuable form market perspective?
 Main purpose of this paper is to figure out the implementation of QUPER in Industry. This is done by conducting a case study at sony errison a mobile handset company. QUPER model doesn’t evaluate quality based on either its good or bad instead it evaluates quality as the different levels of scales of goodness. Quality is non-linear continuous graph when evaluated with cost, benefit. Further generic QUPER model is tailored as per the company and a case study is conducted. Based on the evaluation results it can be understood that applying QUPER during release planning will have added advantage understanding, evaluating quality which leads to the better performance of the product in the market.
 
+Introducing Support for Release Planning of Quality Requirements – An Industrial Evaluation of the QUPER Model
+------------------------------------------------------------------------
+
+In this paper authors introduces a new dimension named quality to the release planning process along with cost and value dimensions. Authors Evaluates this process 	in an industrial environment. From the research the authors have done they found that very little research have been done in prioritization of quality requirements. Therefore, authors have developed a model named Quality Performance (QUPER model) which supports releases planning and road mapping of quality requirements. Quality requirements include performance, usability, reliability etc. When dealing with such requirements aspects such as release targets, end-user experience, business opportunities should be taken into consideration. In this paper, this QUPER model is tailored to the specification of Sony Ericsson and the model is evaluated.
+
+**About QUPER**
+QUPER is build following different steps, First step is to understand the requirements decision process and the need for quality aspects in the cost-benefit model is identified. In the second step based on the input of step one QUPER model which comprises of three views is defined, these views are a benefits view, cost view, roadmap view. The concepts such as breakpoints, cost barriers, benefits are also defined in this step. This QUPER model is validated in six cases of selected subdomains by conducting interviews.
+QUPER model includes the third dimension along with cost and value that is used for prioritization of functional requirements. This model aims at supporting quality requirements in early stages of release planning process thereby helping in making high-level scoping decisions and creating roadmaps.
+	
+	
+**VIEWS of QUPER**
+
+*Benefit View:* Based the principle changes in the benefit level Benefit view consists of three breakpoints. These breakpoints are based on the level of market value and user experience.
+Utility breakpoint: breakpoint between useless (low quality product is not accepted) quality and useful quality.
+Differentiation breakpoint: breakpoint between useful quality and competitive quality (helps in competitive market position)
+Saturation breakpoint: breakpoint between competitive quality and excessive quality (no impact on benefit by increasing the quality levels). 
+*Cost View*: includes cost barriers that show the relation between cost and quality. It contains two different steepness changes, cost barriers which denote the result in quality increase in not feasible without doing huge modifications to the product architecture, whereas cost plateau denotes comparatively less inexpensive software modification results in huge gains.
+*Roadmap view:* combines cost and benefit views by placing breakpoints and barriers together on the same scale. Helps in identify the quality of current product and qualities of competing products.
+
+
+ **Tailoring of QUPER**
+ 
+This is necessary because QUPER model describes above is more generic. As per the company only benefit view is tailored as it is considered more important in QUPER by authors. This process is done by defining the quality aspects used in the company. Estimate the quality of current product with respect to given release, competitor’s product quality is also considered which is already present. For each quality aspects breakpoints are estimated. Based on the estimates target requirements are selected for next releases.
+	
+
+
+
+
+
+
+
+
+
+
+
 
 -A Market-Driven Requirements Engineering Process: Results from an Industrial Process Improvement Programme
 
