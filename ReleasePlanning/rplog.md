@@ -1,3 +1,78 @@
+RELEASE PLANNING
+----------------
+
+***Selection of prioritization techniques.***
+	 After having a discussion in its learning and in the meeting, different prioritization techniques are proposed and discussed. Initially, everyone has suggested planning poker as we have previous experience using it. As the discussion happened we realized the challenges of using planning poker as the prioritization technique we also cannot much literature supporting our decision of using planning poker. After some literature review we identified some techniques, these techniques include 
+
+ - 	*AHP (analytical hierarchy process)*
+This process involves comparing the requirements in pairs (unique pairs requirements). In order to determine the priority of the compared requirements i.e. which among two requirements is of high priority and which is of low priority comparatively and to what extent. 
+Pros: due to redundancy in comparisons this process is not prone to judgmental errors.
+Cons: This method is demanding as no of requirements increases. For a project which has n requirements total of n(n-1)/2 comparisons are required.
+
+ - *100 dollar test*
+It is a game based method where all the participants of the prioritization process are provided with a constant amount (in this case 100$) each and are asked to buy the requirements with giving amount worth. Requirements are ranked based on the amount of dollars that the participants willing to pay .Participants include various stakeholders and from this method their preference of the requirements can be known.
+*Pros*: Easy to use and does not require any previous expertise. 
+*Cons*: Bias
+
+ - 	*Top ten estimation* 
+Each participant is asked to select his/her top ten requirements from given set of requirements based on this list, level (priority) of stakeholder requirements are prioritized.
+
+ - *Ranking*
+Stakeholders are given the list of requirements and are asked to rank them as per their preference. Ranks from different stakeholders are collected and the mean of the rank is considered as the rank of the requirement.
+*Pros:* Easy to implement 
+*Cons:* difficult when a number of requirements are high.
+
+ - 	*Grouping:*
+All available requirements are divided into different priority groups. MoSCoW technique is one of the grouping methods. 
+
+After the discussion and considering pros and cons of each method, the group agreed to use MoSCoW  technique.
+
+MoSCoW
+It is a grouping technique where requirements are grouped into different prioritized groups. MoSCoW contains different priorities.
+
+> M – MUST have this requirement. 
+
+> S – SHOULD have this requirement if at all possible. 
+
+> C – COULD have this requirement if it does not affect anything else.
+
+>  W – WON’T implement this time requirement but WOULD  like to implement sin the future.
+
+
+***MUST*** 
+Requirements which are labeled as MUST have to be included in the current release. Of the available Must requirements if any requirement is not implemented the release may result in failure of the release.
+
+***Should*** 
+			SHOULD requirements are also crucial in the success of the project, but not including them in current release will not result in failure of the release. Usually, SHOULD requirements are not as time-critical as MUST requirements and have different ways of implementing it to satisfy the requirement.
+			
+***Could*** 
+Requirements which are labeled as COULD are considered less critical and are often seen added features (good to have). These requirements help in increasing customer satisfaction thereby help in a competitive market.
+
+***Won’t (but Would like)***
+ These requirements are not critical, doesn’t have any influence on the product in the market, not appropriate at current time requirements. These types of requirements are dropped of considered when the time is appropriate.
+ 
+***PROS:*** 
+
+•	easy to implement, no infrastructure is necessary. This could be done without the support of big software tools.
+
+•	Participation of the entire team (participants in requirements prioritization process) helps in understating the requirements better.
+
+•	A Clear description of the MoSCoW selection process helps in assisting the team.
+
+***CONS:***
+
+•	Stakeholder thing every thing is important and all requirements are labeled as MUST (understanding of the product is very important)
+
+•	Selection criteria play a vital role
+
+ 
+*note:* requirements can be downgraded, upgraded by agreement with all relevant stakeholders.
+	
+
+
+
+
+
 Week 47
 	Started working on Assignment in GitHub worked with issues, trying to understand the issues and discussing about the requirement with issue owner based for better understanding the requirements.
 	
