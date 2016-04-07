@@ -121,6 +121,16 @@ It is the part of agile software development. Continuous integration (CI) is sup
 **What is road mapping? How can you do it large scale?**
 
  Roadmapping is a technique followed for planning and describing the use technological and scientific resources, elements and their relationships over a certain period of time. Roadmapping helps in improving development process by providing early information by long term decision making. Which in 
+ 
+ 
+ **Papers**
+ Quality Requirements in Industrial Practice—An Extended Interview Study at Eleven Companies
+------------------------------------------------------------------------
+Quality requirements (QR) gives a competitive advantage and plays a crucial role in developing the product which meets customer’s satisfaction and reduced time-to-market. Developing a successful product need to fulfill both functional and quality requirements. But to fulfill the Quality requirements it is often associated with challenges, which is focused upon in this paper. The paper also focuses on perceptions of business-to-business (B2B) {companies that develop for other industry} and business-to-consumer (B2C), {companies that develop products for end users} partners towards QR by conducting semi structured interview from 11 companies with the help of forming Research questions.
+RQ1 aimed to find out the most important quality aspects while developing products. Usability, performance requirements, reliability and stability are prioritized as important quality ascpects.B2B marked safety as highest prioritized .Usability is considered most important to B2C which is unlike in B2B as customers basic requirement is usability of the products.B2C identified portability as important quality aspects while B2B haven’t considered it.
+RQ2 dealt about understanding the interdependencies among QR. REQUIRES,CVALUE,and ICOST are identified as the most common interdependency types. REQUIRES is considered most common in B2B type while CVALUE in B2C.REQUIRE is prioritized as most important interdependency type among both types. While B2B also considered ICOST while CVALUE is also considered most important for B2C.It resulted out that there is low extent of managing interdependency among companies in eliciting, analyzing and documenting interdependencies as it is a complex task and involved many dependencies.
+The results show that B2B has more inaccurate estimation than B2C in worst case, as B2B is involved much larger instances of single development.19% of all QR have been identified as dismissed on an average. Least QR dismissal is for B2B when compared with B2C.No major differences have been identified between B2C and B2B.Poor cost estimations, Lack of resources and having low priority for QR in comparison with Functional requirements have been resulted as the  main reasons for dismissal of QR. With communication problems among Project Manager and Project leader varied opinions are raised out.82% Companies Project Manager stated that there is consequence analysis while Project leader disagreed with it. The results have shown few QRs are quantified but not all.
+
 
 
 ***SEMINAR 2***
@@ -180,6 +190,19 @@ MDRE process implementation to be concrete  some factors should be implemented s
 	Data management In MDRE can be done using requirements state model (RSM) (used for the tracking the progress of the requirement refinement), requirements repository where there details about the requirements are stored. RSM uses requirements salmon ladder with following states candidate (each received requirements gets this status), Approved (Reviewed and accepted requirements gets this status), specified (detailed specification added), Discarded (Reviewed and rejected requirements gets this status), Planned (resources allocated), Developed, Verified, and Released. 
 
 **My view:**Having requirements repository will assist requirements analysts in identifying the dependencies, identifying similar requirements,grouping the requirements etc.  MDRE process tends to be more complex process as we consider each and every possible scenarios such as number of requirements,  continuous requirements inflow, requirements changes, competitors, changes in technology, target market etc. An effective process plan considering all above mentioned challenges should be made in order to be effective in the market.
+
+
+**Scaled Agile Framework®, or SAFe®** is a framework developed by Dean Leffingwell.it helps in adapting agile practices at the enterprise level. This framework is field tested and it assists with tough issues such as integration, architecture, governance, funding and roles at scale. The framework is based on lean-agile practices. Lean agile practices involve following both agile and lean manufacturing practices. SAFe helps in implementing framework at four different levels namely
+
+ - Portfolio (At this level different strategies that determine the initiatives of the enterprise are 
+made.)
+ - Value stream (it is intended for complex, large systems with multiple agile streams)
+ -  Program (deals with alignment of efforts of multiple agile teams)
+ - Team (deals with type of agile practices used by teams, delivering the working software with ease )
+
+
+The framework suggests some metrics like employee engagement, agility, and customer satisfaction, time to market, ability to work with outside software organization partners and quality. Along with metrics framework also suggest burn-up charts that help in managing the process (for single epic), bar chart that shows actual to be done work (help in comparing epics).
+
 
 Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering
 ------------------------------------------------------------------------
