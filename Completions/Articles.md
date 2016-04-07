@@ -181,6 +181,50 @@ MDRE process implementation to be concrete  some factors should be implemented s
 
 **My view:**Having requirements repository will assist requirements analysts in identifying the dependencies, identifying similar requirements,grouping the requirements etc.  MDRE process tends to be more complex process as we consider each and every possible scenarios such as number of requirements,  continuous requirements inflow, requirements changes, competitors, changes in technology, target market etc. An effective process plan considering all above mentioned challenges should be made in order to be effective in the market.
 
+Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering
+------------------------------------------------------------------------
+In this paper, authors conducted a retrospective case study to understand, identify the factors influencing the lead time in the decision-making process in market-driven development. The relationship among decision characteristics is analyzed and is investigated through a survey. Requirements Engineering process helps the organization to deliver the right product at right time especially in the case of market-driven development where product needs are to be aligned with market needs. Considering the magnitude of requirements, their inflow in a large scale market driven organization, deciding which requirement to implement when is a very complex task. This complexity can be reduced by using the concept of software product lines (SPL). A software product line (SPL) is a set of software-intensive systems which share a certain set of features that meet the needs of the specific market sector. These systems have identical core assets. This helps in providing individualized software product with reuse of the core components. The complexity of decision-making process for such product lines has been significantly increasing with the increase of the degree of reuse. Decision lead time here is the measure of time take to analyze the impact of the decision.
+	Decision characteristics that are considered are a number of products, release number, type of customers these characteristics have their influence in decision lead time and magnitude of this influence is analyzed.  The role played by the relationship between characteristics in acceptation or rejection of the decision. 
+	
+***Process***
+A case study is chosen as the apt research method for this research. Access to large data pertaining to decision-making processes including change requests is provided. Data is validated by a practitioner to eliminate the risk of low quality.
+For each decision, five decision characteristics are identified.
+  *Lead-time:* Time between the registration of request and decision about the request is taken. Measured in weekdays.
+
+*Number of Products Affected:* a total number of products in this software product line that are going to be affected by acceptation of the decision.
+
+*Release Number:* Specific number of release that is affected by change request (case company uses heart beat rhythm with one base release and four sequential releases.).
+
+*Type of Customer:* used to identify the owner of the request. Request may come from an external customer (large partner of the case company)
+
+*Decision Outcome:*  measure based on the acceptance of change request (is it accepted or not).
+
+A survey is conducted in order to validate the results and increase external validity. Several hypotheses are created in order to understand the relationship among the decision characteristics.
+
+***Considered hypothesis***
+
+ - Factors that affect the decision lead time
+
+	 - 	The impact of the number of products that a decision effects on the decision lead time
+	 - Effect of a certain release number on the decision lead time
+	 - Effect of Important Customers on the decision lead time
+
+ - Factors that affect the decision outcome
+
+	 - The impact of the number of products that a decision effects on the decision outcome
+	 - Effects of a certain release number on the decision outcome
+	 - Effect of Important Customers on the decision outcome
+
+ - Effect of lead-time on the decision outcome 
+
+***Results:***
+
+ - Decision Lead time increase with increase in number of products affected. As complex decisions may take long time.
+ - Request that Effect lots of products have a higher chance of acceptance because it might be a change to core part and considered as important
+ - Release Number have no significant impact on decision time.
+ - The lead time to accept a decision is significantly smaller that lead timer to reject a decision 
+
+
 	
 
 **SEMINAR 4**
