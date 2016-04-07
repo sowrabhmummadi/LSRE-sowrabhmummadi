@@ -13,9 +13,11 @@ Release planning log:
 **Week 47:**
 
  Started working on Assignment in GitHub worked with issues, trying to understand the issues and discussing the requirement with issue owner based on better understanding the requirements. This discussion is done in person rather in Github.
+ 
 **Week 48**
  
 Haven’t worked more notable progress is understanding the latest requirements.
+
 **WEEK 50**
  
 Added new issues (requirements) which includes 
