@@ -80,6 +80,10 @@ Saturation breakpoint: breakpoint between competitive quality and excessive qual
 This is necessary because QUPER model describes above is more generic. As per the company only benefit view is tailored as it is considered more important in QUPER by authors. This process is done by defining the quality aspects used in the company. Estimate the quality of current product with respect to given release, competitor’s product quality is also considered which is already present. For each quality aspects breakpoints are estimated. Based on the estimates target requirements are selected for next releases.
 	
 
+**Reflections**
+
+During this seminar, discussion questions deal with brushing up skills on requirements engineering these are discussed in the seminar 1. Homework questions deal with understanding the requirements large scale engineering process, release planning. Articles are based mostly based on Market-driven engineering process, QUPER model, release planning process. Paper 1 projected a different view of release planning which helps in understanding release planning. Paper 2 and paper 3 provide a very clear idea about what QUPER is and how it works. Even though Practical implementation not available, guidelines are good enough. Paper 4 discusses the market-driven requirement engineering process which helps in understanding the MDRE this paper also address the homework questions.
+
 ***SEMINAR  1***
 
  **GAP / CVA / IVA Analysis** 
@@ -131,7 +135,9 @@ RQ1 aimed to find out the most important quality aspects while developing produc
 RQ2 dealt about understanding the interdependencies among QR. REQUIRES,CVALUE,and ICOST are identified as the most common interdependency types. REQUIRES is considered most common in B2B type while CVALUE in B2C.REQUIRE is prioritized as most important interdependency type among both types. While B2B also considered ICOST while CVALUE is also considered most important for B2C.It resulted out that there is low extent of managing interdependency among companies in eliciting, analyzing and documenting interdependencies as it is a complex task and involved many dependencies.
 The results show that B2B has more inaccurate estimation than B2C in worst case, as B2B is involved much larger instances of single development.19% of all QR have been identified as dismissed on an average. Least QR dismissal is for B2B when compared with B2C.No major differences have been identified between B2C and B2B.Poor cost estimations, Lack of resources and having low priority for QR in comparison with Functional requirements have been resulted as the  main reasons for dismissal of QR. With communication problems among Project Manager and Project leader varied opinions are raised out.82% Companies Project Manager stated that there is consequence analysis while Project leader disagreed with it. The results have shown few QRs are quantified but not all.
 
+**Reflections**
 
+Seminar 1 discussions deal with large scale requirements engineering process, MDRE process, continuous integration, Release planning in more detail. Homework questions are based on different procedures, tools, the output of requirements engineering process such as GAP/IVA/ CVA analysis, technical product management, road mapping.  Papers that are summarized provided answers to homework questions paper 1 introduces a Requirements abstraction model which seemed very interesting and necessary for requirements engineering process. In paper 3 authors discusses GAP analysis briefly which when searched online made more sense. Paper 5 discuss the cost value approach where requirements are compared pairwise. Applying the concept of this paper for large scale requirements prioritization seemed very complex.
 
 ***SEMINAR 2***
 
@@ -247,7 +253,14 @@ A survey is conducted in order to validate the results and increase external val
  - Release Number have no significant impact on decision time.
  - The lead time to accept a decision is significantly smaller that lead timer to reject a decision 
 
+**Reflections**
 
+Discussion question is based on the homework question from the previous seminar which helped in participating in the discussion interesting. These questions are mainly based on road mapping and portfolio management. Homework questions deal with Boston matrix, requirements connection with architecture. Papers provide are mainly towards software product management paper 3 introduces to a framework which has very clear guidelines regarding the lean-agile practices this paper gives more idea about portfolio management. Papers 1 ,2 provided a very good understanding of different methods that will be used in real time market is driven industry. Paper 5 gives a very good idea of the decision-making process and its importance in requirement engineering. Paper 6 gives the clear picture about different possible dependencies possible in requirements engineering. A very good discussion about Boston matrix is done which helped to understand the software market evaluations
+	
+**SEMINAR 3**
+
+**Reflections**
+In this seminar discussion, questions deal with distribution of requirements among teams and connection between architecture decisions and requirements are discussed. Homework papers deal with two very interesting and very important topics of requirements engineering process namely obsolete requirements, visualization of scope change. Paper 1 gave a clear idea about how requirements management should eliminate obsolete requirements and paper 2 visualizes the scope change in the real-time software project.
 	
 
 **SEMINAR 4**
@@ -314,4 +327,6 @@ Authors received difference opinion about the necessity of Software breakdown in
 
 **My View**: Continuous integration will support the development of the product.But in order to implement this process one should have a clear picture of what is being developed.Better planning is required to realize the advantages of the process.As the requirements gathered are from different levels of abstraction and has different customer value and business value breaking them will help in continuous integration.Another challenge is maintaining the quality of the product effective quality assurance measures should be in place to preserve the quality of the product.Another challenge is less feedback time this should be considered while planning the project.
 
+**Reflections**
+Tools are available for requirements management are identify by extensive online search ‘some of the important tools are presented above. This search helped in knowing different kinds of methods, techniques used in both traditional and agile requirements engineering. Wnuk’s  work on visualization of software scope change is discussed in detailed helped in understanding the importance of scope in requirement engineering process.
 
