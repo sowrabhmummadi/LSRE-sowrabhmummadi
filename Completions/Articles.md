@@ -20,7 +20,65 @@ As large-scale requirements engineering involves dealing with a huge number of r
 
 Order of magnitude of requirements in a large-scale requirement engineering process is approximately between 1000 - 10000 requirements.
 
+**Papers**
 
+The Art and Science of Software Release Planning
+------------------------------------------------
+Release planning needs computational intelligence combined with knowledge and experience of experts. In this paper, Authors describe the release planning process in association with incremental development. Incremental development helps the customer to have early access to the product which results in early feedback from the customers. Release planning contains the plan of different system releases each contains a certain set of features based on customer value. Also each further release help in fixing defects from previous releases. Release planning is mainly about selecting features and assigning them to the different releases. This assignment should consider technical, budget, risk constraints.
+
+***Challenges faced during release planning:***
+
+ - 	Planning is computationally complex after identifying the formal definition of the problem. Identifying the problem in the first place is a more complex task due to cognitive complexity.
+ - 	A Proper understanding of planning objectives, constraints, important stakeholders and their feature preferences is necessary.
+ - Release planning in most of the industries is done in ad-hoc because	
+	 - Optimally selecting features is a very complex task considering the no of features.
+	 - 	Planning involves the use of resources and also time-consuming.
+	 - 	Scope planning is limited to next release only.
+	 - 	Even the standards which mention the necessity of the plan lacks the procedures to follow implement planning successfully.
+
+In this paper, the author provides two approaches to release planning. The Art of release planning and the Science of release planning. Agile development methodology which is famous for the well-known small, iterative software release providing early feedback from the customer avoids big bang syndrome does not have a specific procedure to select the features and priorities. Most of the industries even dealing with a large number of requirements lack the tool support for release planning, they use spreadsheets for this process. Authors try to formalize the release planning problem, in the process they have identified similar studies
+ - Anthony Bagnall and his colleagues assign weight to the customers based on their importance to the company and then used to plan the feature by satisfying the subset of customer who are more valuable considering the allowed budget.
+ - Ho-Won Jung’s approach involves selecting features that provide maximum value to the minimum cost and according to budget features are allocated.
+These approaches does not involve customers in decision making process.
+
+***Authors proposed process***
+Identify the set of features and assign them to the set of releases.
+ 
+
+ - identify the dependencies among the features. Proposed two types of dependencies Coupling (dependent should be released in the same release) and precedence (dependents should be released in certain order).
+ -  Resources constraints should be considered, these relate to budget and effort estimates.
+ - Stakeholders are assigned certain level of importance (ordinal nine-point scale for each customer)
+ - Feature Prioritization is done based on the urgency and value. Each feature is assigned a level of urgency (Ordinal nine-point scale given by each stakeholder) based on its impact on the product’s overall value.
+ - objective function is formed and then hybrid approach based on integer linear programming is followed.
+
+
+This process is implemented and verified.
+
+
+Introducing Support for Release Planning of Quality Requirements – An Industrial Evaluation of the QUPER Model
+------------------------------------------------------------------------
+
+In this paper authors introduces a new dimension named quality to the release planning process along with cost and value dimensions. Authors Evaluates this process 	in an industrial environment. From the research the authors have done they found that very little research have been done in prioritization of quality requirements. Therefore, authors have developed a model named Quality Performance (QUPER model) which supports releases planning and road mapping of quality requirements. Quality requirements include performance, usability, reliability etc. When dealing with such requirements aspects such as release targets, end-user experience, business opportunities should be taken into consideration. In this paper, this QUPER model is tailored to the specification of Sony Ericsson and the model is evaluated.
+
+**About QUPER**
+QUPER is build following different steps, First step is to understand the requirements decision process and the need for quality aspects in the cost-benefit model is identified. In the second step based on the input of step one QUPER model which comprises of three views is defined, these views are a benefits view, cost view, roadmap view. The concepts such as breakpoints, cost barriers, benefits are also defined in this step. This QUPER model is validated in six cases of selected subdomains by conducting interviews.
+QUPER model includes the third dimension along with cost and value that is used for prioritization of functional requirements. This model aims at supporting quality requirements in early stages of release planning process thereby helping in making high-level scoping decisions and creating roadmaps.
+	
+	
+**VIEWS of QUPER**
+
+*Benefit View:* Based the principle changes in the benefit level Benefit view consists of three breakpoints. These breakpoints are based on the level of market value and user experience.
+Utility breakpoint: breakpoint between useless (low quality product is not accepted) quality and useful quality.
+Differentiation breakpoint: breakpoint between useful quality and competitive quality (helps in competitive market position)
+Saturation breakpoint: breakpoint between competitive quality and excessive quality (no impact on benefit by increasing the quality levels). 
+*Cost View*: includes cost barriers that show the relation between cost and quality. It contains two different steepness changes, cost barriers which denote the result in quality increase in not feasible without doing huge modifications to the product architecture, whereas cost plateau denotes comparatively less inexpensive software modification results in huge gains.
+*Roadmap view:* combines cost and benefit views by placing breakpoints and barriers together on the same scale. Helps in identify the quality of current product and qualities of competing products.
+
+
+ **Tailoring of QUPER**
+ 
+This is necessary because QUPER model describes above is more generic. As per the company only benefit view is tailored as it is considered more important in QUPER by authors. This process is done by defining the quality aspects used in the company. Estimate the quality of current product with respect to given release, competitor’s product quality is also considered which is already present. For each quality aspects breakpoints are estimated. Based on the estimates target requirements are selected for next releases.
+	
 
 ***SEMINAR  1***
 
