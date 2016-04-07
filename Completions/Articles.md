@@ -151,6 +151,37 @@ Requirements specify what product is to be build. Architecture depicts how syste
 
 **Can you connect all requirements directly? What do you do if you cannot?**
 	All requirements cannot be directly connected to architecture. This might be because some of the requirements are not mature enough to connected to architecture. Maturity depends on the level of detail of the requirement and level of its understanding by the architect. In this case those requirements should be revisited and steps to understand it more should be taken. These steps include conducting meetings with the requirements or owner, conduct interviews  as the requirement ‘s target personal etc.
+	
+**Papers**
+
+Market-Driven Requirements Engineering for Software Products
+------------------------------------------------------------
+
+Market-Driven Software Products are the software that is aimed at the open market rather than a specific customer(bespoke product).Development costs of Market Driven products are divided among many buyers in an open market. This paper focuses on the product requirement engineering process of Market-Driven products. This paper also provides implementation way to progress tracking and data management.  Requirement Engineering process of the Market-Driven products is identical to the bespoke product but with some additional challenges and change in context. The process of requirement engineering in Market-Driven environment is called Market-Driven Requirements Engineering(MDRE). Developing organization should consider the following things in order to stay alive in competitive Market-Driven market.
+
+ - Efficient MDRE process dealing with bespoke requirement engineering activities such as elicitation, specification, and validation in the Market-Driven context.
+ - Management of MDRE Repository.MDRE repository includes the data about produced requirements along with past requirements data with varying level of abstraction. MDRE repository includes current customer profiles, latest status about candidate requirements and requirements under development etc.
+ - Profitable Release planning which considers strategic assets of development, the competence of its engineers,software architecture investment combined with overall business strategy.
+ 
+Requirements Elicitation is the primary step in requirements engineering process.This steps in MDRE process includes the market analysis and new ideas based on the technology.Requirement specification step in MDRE process becomes more complex as there is possible of a huge number of requirements and level of detail of the requirement cannot be expected.Therefore, a well-defined repository should be in place to deal with these requirements. Prioritization is a key aspect of MDRE process which helps in decision making and supporting. 
+MDRE along with traditional requirement engineering activities will also include release management and market analysis. MDRE is conducted mainly because of competition from co-developing organizations as product evolve.Software products can be classified using a degree of customization and the hardware/software content.Market-Driven products include generic(developed for open market)/customized and pure software(contains only software)/embedded systems.Customized products are also part of Market-driven products because a product which is customized first can later be introduced in the open market  which can improve revenue.The main characteristic of Market-Driven product is to release right product at the right time while bespoke deals with agreement fulfillment and customer satisfaction.
+
+***Some of the Challenges faced in MDRE***
+ - 	Balancing market pull and technology push(balance between needs and technology)
+ - 	Chasm between marketing and development
+ - 	Organizational instability and market turbulence. (caused due to  undefined specific process for development/no documentation or standardized procedure followed)
+ - Requirement dependencies
+ - Release planning and cost value estimation (caused due to immature estimations )
+ - Overloaded requirement management (caused due to flooding of requirements repository).
+ 
+MDRE process implementation to be concrete  some factors should be implemented such factors include type of development process, price, distribution policy, type of market, product complexity, product flexibility ,user interface complexity, prediction of sales, sale channels. Process quality of MDRE process is explained using *alfa-beta model* where alfa requirements are must implement requirements as they add quality to the product, beta requirements should not be implemented as they are lower the quality of the product. Using this model product quality and decision quality can be known. Main challenge lies in selecting alfa requirements while rejecting beta requirements. Elicitation process had a great impact on the process quality. Golden-grain ratio (ratio of number of selected alfa requirements to total number of issued requirements) is used to identify the outcome of elicitation process.
+
+***MDRE Data Management***	
+	Data management In MDRE can be done using requirements state model (RSM) (used for the tracking the progress of the requirement refinement), requirements repository where there details about the requirements are stored. RSM uses requirements salmon ladder with following states candidate (each received requirements gets this status), Approved (Reviewed and accepted requirements gets this status), specified (detailed specification added), Discarded (Reviewed and rejected requirements gets this status), Planned (resources allocated), Developed, Verified, and Released. 
+
+**My view:**Having requirements repository will assist requirements analysts in identifying the dependencies, identifying similar requirements,grouping the requirements etc.  MDRE process tends to be more complex process as we consider each and every possible scenarios such as number of requirements,  continuous requirements inflow, requirements changes, competitors, changes in technology, target market etc. An effective process plan considering all above mentioned challenges should be made in order to be effective in the market.
+
+	
 
 **SEMINAR 4**
 
@@ -180,5 +211,40 @@ Some of the tool particular to agile requirements management are:
 [Innoslate](https://www.innoslate.com/)
 
 [Requirement one](http://www.requirementone.com/)
+
+
+**Papers**
+
+Assessing challenges of continuous integration in the context of software requirements breakdown a case study
+------------------------------------------------------------------------
+
+This paper discusses the challenges faced during continuous integration in agile practices. This is done by conducting a case study. This paper also considers software requirements breakdown and its influence on continuous integration. Continuous Integration is the concept of integration of small requirements or parts of a requirement several times in a day.Due to increase in a number of requirements and considering the frequency of the requirements changes, agile practices are considered most promising development methodology.This development methodology can be further improved by using continuous integration.Continuous integration in order to be effective it should have the support of  software requirements breakdown.Requirements should be small enough to facilitate continuous integration.This helps developers to test them independently before integration.Breakdown of a user story into smaller, clearer requirements with visual business and customer value is considered difficult task and many examples that verify this statement are provided by authors.During literature review, authors found that there are many problems that can occur by continuous integration.
+
+> During this thesis, author focused on 
+> 
+>  - challenges of implements continuous integration in practice
+>   
+>  - challenges of software requirements breakdown in practice
+>   
+>  - influence of software requirements breakdown on continuous integration.
+
+A case study is conducted by authors’ at **Ericsson**.
+
+ Continuous integration is adapted by many teams at Ericsson and the process followed in the company is as follows.The company has different branches for development(Work Branch),testing(local latest version,pre-test Build),quality assurance.Any new feature or bug fix that is being developed,changes made are pushed into Work Branch.once the whole feature is developed changes are pushed to Local Latest Version branch here the new functionality is tested after the tests are passed these changes are pushed to pre-test Build branch here the regression testing is done.After these tests are completed then the changes are pushed to latest stable version.Quality assurance is done at each branch.
+ 
+***Challenges identified during continuous integration:***
+-Mindset:developers mindset which is influenced by scepticism,change of old habits(Continuous integration challenges old habits), early exposing work(less time to polish the code before integration) .
+-Tools and infrastructure
+-Testing challenges, Domain Adaptability, Understanding of Continuous Integration, Code Dependencies, Software Requirments breakdown challenges.
+
+
+**Software Requirments breakdown** 
+	Ericsson introduced cross-functional teams as a part of the agile transformation.These cross-functional teams contain operational product owners who decide the order of implementation of requirements and it's up to the teams breakdown the requirements.
+***Challenges faced:***
+-Requirements Abstraction, Alignment of requirements and test, customer value, Guiding principle.
+Influence of software requirements breakdown on continuous Integration.
+Authors received difference opinion about the necessity of Software breakdown in continuous integration.The necessity depends on the work that is being carried out.Breaking down the requirements to support continuous integration will come with certain implications .
+
+**My View**: Continuous integration will support the development of the product.But in order to implement this process one should have a clear picture of what is being developed.Better planning is required to realize the advantages of the process.As the requirements gathered are from different levels of abstraction and has different customer value and business value breaking them will help in continuous integration.Another challenge is maintaining the quality of the product effective quality assurance measures should be in place to preserve the quality of the product.Another challenge is less feedback time this should be considered while planning the project.
 
 
