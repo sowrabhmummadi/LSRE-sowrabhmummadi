@@ -124,7 +124,14 @@ It is the part of agile software development. Continuous integration (CI) is sup
  
 **What is road mapping? How can you do it large scale?**
 
- Roadmapping is a technique followed for planning and describing the use technological and scientific resources, elements and their relationships over a certain period of time. Roadmapping helps in improving development process by providing early information by long term decision making. Which in 
+ Roadmapping is a technique followed for planning and describing the use technological and scientific resources, elements and their relationships over a certain period of time for a software product. Roadmapping helps in improving development process by providing early information by long term decision making. There are different types of roadmaps available such as product road map, technological roadmap, release roadmapping etc. Roadmapping plays an important role in Market driven development. Roadmapping consists of following phases 
+•	*Forecasting*: technology forecasting help in identifying the goal of the product .Accurate forecast may not be required.
+•	*Planning* : using the forecasted data organizations plan the product release for more than a single release
+
+*Reference:* 
+
+Kappel TA. Perspectives on roadmaps: How organizations talk about the future. Journal of Product Innovation Management 2001; 18(1):39–50.
+
  
  
  **Papers**
