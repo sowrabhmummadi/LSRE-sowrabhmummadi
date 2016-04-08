@@ -144,3 +144,22 @@ Requirements which are labeled as COULD are considered less critical and are oft
 
 As the guidelines for MoSCoW process is clear in the literature applying the method is considered moderately simple once we understand the requirements and their dependencies. During the whole release planning process difficulty is faced in identifying dependencies among the requirements. One more difficulty faced is getting a complete set of requirements, while analyzing the dependencies we understood that there should be some requirements necessary to identify the level of current requirement in such case we just consider the current requirement for evaluation of its level. GitHub allowed mapping dependencies to some extent. Only mapping is possible, specifying what kind of dependencies is one task that cannot be done in GitHub. GitHub is good at collecting the requirements but requirement should be more specific and they should contain some mandatory information (target stakeholders, the rationale supporting the implementation requirements, the necessity of the requirements etc.). This is not possible on GitHub which resulted in some vague, abstract requirements which took some time to understand the experiences. Traceability cannot be realized in GitHub to a desirable extent. Especially the no of requirements is in large scale which is the case in large scale requirements engineering GitHub cannot be used for managing requirements. 
 
+**REFERENCES**
+
+*selcection of prioritization techniques:*
+
+Berander, Patrik, and Anneliese Andrews. "Requirements prioritization." Engineering and managing software requirements. Springer Berlin Heidelberg, 2005. 69-94.
+ 
+ *dependencies analysis based on :*
+ 
+ Ruhe, Günther, and Moshood Omolade Saliu. "The art and science of software release planning." Software, IEEE 22.6 (2005): 47-53.
+ 
+ *MoSCoW technique:*
+ 
+ Waters, Kelly. "Prioritization using moscow." Agile Planning 12 (2009).
+ 
+ 
+ 
+ 
+ 
+ 
